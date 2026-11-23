@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-clip-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: standard
+    healthCheckPath: /api/health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
