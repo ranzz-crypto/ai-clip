@@ -10,7 +10,7 @@ Vercel hanya menjalankan frontend (React). Server analisis (Python + FFmpeg + Wh
 ## Opsi A: Railway (paling mudah)
 
 1. Buka https://railway.com lalu login dengan GitHub.
-2. Klik **New Project** > **Deploy from GitHub repo** > pilih `ranzz-crypto/ai-clip` (branch `main`).
+2. Klik **New Project** > **Deploy from GitHub repo** > pilih `ranzz-crypto/ai-clip` (branch `dev/galih`, branch default repo ini).
 3. Railway otomatis memakai `Dockerfile`. Tunggu build selesai (sekitar 5-10 menit pertama).
 4. Buka tab **Variables**, tambahkan `GEMINI_API_KEY` dengan nilai API key Anda.
 5. Buka tab **Settings** > **Networking** > **Generate Domain**. Isi port dengan `8000`.
